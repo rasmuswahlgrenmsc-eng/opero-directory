@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowUpRight, X, Moon, Sun, Laptop, ShieldCheck, Zap, Layers, Sparkles, ChevronDown } from "lucide-react";
+import { SafariMockup } from "../components/ui/safari";
 
 // Multi-language UI translation dictionary
 const uiTranslations = {
@@ -385,16 +386,14 @@ export default function Home() {
               >
                 <div>
                   {/* Project Image Frame */}
-                  <div className="relative aspect-[16/10] w-full overflow-hidden rounded-xl bg-gray-100 dark:bg-zinc-800 border border-[#252525]/5 dark:border-white/5">
-                    <Image
-                      src={project.cover}
-                      alt={content.name}
-                      fill
-                      className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
-                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  <div className="relative">
+                    <SafariMockup
+                      image={project.cover}
+                      url={project.url}
+                      name={content.name}
                     />
                     {/* Absolute Logo overlay */}
-                    <div className="absolute top-4 left-4 bg-white/90 dark:bg-black/90 p-1.5 rounded-lg border border-[#252525]/10 dark:border-white/10 shadow-sm flex items-center justify-center">
+                    <div className="absolute top-12 left-4 bg-white/90 dark:bg-black/90 p-1.5 rounded-lg border border-[#252525]/10 dark:border-white/10 shadow-sm flex items-center justify-center z-10">
                       <div className="relative w-8 h-8 rounded overflow-hidden">
                         <Image
                           src={project.logo}
@@ -594,15 +593,11 @@ export default function Home() {
                 {/* Modal Body */}
                 <div className="flex-grow p-6 md:p-8 space-y-8">
                   {/* Large Cover */}
-                  <div className="relative aspect-[16/10] w-full rounded-2xl overflow-hidden border border-[#252525]/10 dark:border-white/10 bg-gray-100 dark:bg-zinc-800">
-                    <Image
-                      src={selectedProject.cover}
-                      alt={content.name}
-                      fill
-                      className="object-cover"
-                      sizes="(max-width: 768px) 100vw, 600px"
-                    />
-                  </div>
+                  <SafariMockup
+                    image={selectedProject.cover}
+                    url={selectedProject.url}
+                    name={content.name}
+                  />
 
                   {/* Primary Launch Action */}
                   <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-4 p-5 rounded-2xl bg-[#F5F3EF] dark:bg-[#252525] border border-[#252525]/5 dark:border-white/5">
