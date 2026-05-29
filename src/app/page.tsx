@@ -84,8 +84,8 @@ const faqs = {
     },
     {
       id: "faq-4",
-      q: "Behöver jag både en ny hemsida och AEO för min städfirma?",
-      a: "Ja. Ditt städföretag vill synas när kunder söker på traditionella sätt ('flyttstädning Lund' på Google) samt när de frågar en AI ('Hitta den bäst rekommenderade städfirman i Malmö med RUT-avdrag'). En ny prestandaoptimerad hemsida är grunden som gör AEO-funktionen möjlig."
+      q: "Behöver jag både en ny hemsida och AEO för mitt företag?",
+      a: "Ja. Ditt företag vill synas när kunder söker på traditionella sätt (som t.ex. på Google) samt när de frågar en AI ('Hitta den bäst rekommenderade tjänsten i mitt närområde'). En ny prestandaoptimerad hemsida är grunden som gör AEO-funktionen möjlig."
     },
     {
       id: "faq-5",
@@ -111,8 +111,8 @@ const faqs = {
     },
     {
       id: "faq-4",
-      q: "Do I need both a new website and AEO for my cleaning business?",
-      a: "Yes. Your cleaning business needs to be visible for classic searches ('home cleaning Lund' on Google) and AI prompts ('Recommend a highly-rated Malmö cleaning service with RUT-discount'). A modern, fast website is the absolute foundation required for AEO."
+      q: "Do I need both a new website and AEO for my business?",
+      a: "Yes. Your business needs to be visible for classic searches on Google and AI prompts ('Recommend the best service in my area'). A modern, fast website is the absolute foundation required for AEO."
     },
     {
       id: "faq-5",
@@ -206,7 +206,7 @@ const projects = [
       description: "Exklusiv och lyxig hemsida för städtjänster med fokus på premiumsegmentet för både hem och företag.",
       longDescription: "FiveStar Städ förmedlar känslan av en femstjärnig hotellservice för exklusiva hem och kontor. Designen använder sofistikerade guldaccenter mot en djup kolfibersvart bakgrund för att kommunicera kvalitet och premiumstandard. Sidan har interaktiva före/efter-gallerier och direktbokning.",
       tags: ["Premium", "Lyx", "React 19"],
-      features: ["Lyxigt mörkt guldtema", "Interaktivt före/efter-galleri", "Företagsinriktad presentation", "Blixtsnabb laddningtid"]
+      features: ["Lyxigt mörkt guldtema", "Interaktivt före/efter-galleri", "Företagsinriktad presentation", "Blixtsnabb laddningstid"]
     },
     en: {
       name: "FiveStar Städ",

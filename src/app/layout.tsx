@@ -14,7 +14,7 @@ const outfit = Outfit({
 
 export const metadata: Metadata = {
   title: "OPERO / Selected Works",
-  description: "A curated minimalist showcase of 5 custom-designed cleaning business websites built with Next.js, TailwindCSS, and Framer Motion.",
+  description: "A curated minimalist showcase of custom-designed, AEO/SEO-optimized websites built with Next.js, TailwindCSS, and Framer Motion.",
   keywords: ["design portfolio", "minimalist portfolio", "web development", "nextjs portfolio", "uiux showcase"],
   icons: {
     icon: "/assets/opero-favicon.png",
