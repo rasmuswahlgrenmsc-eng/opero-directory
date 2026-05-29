@@ -302,7 +302,6 @@ export default function Home() {
             />
           </div>
           <span className="font-display font-black text-sm tracking-[0.2em] uppercase">{text.works}</span>
-          <span className="text-[10px] tracking-widest text-[#252525]/60 dark:text-[#FCFBF9]/60 font-semibold uppercase">/ {text.worksCount}</span>
         </div>
         
         <nav className="flex items-center gap-3 sm:gap-4">
