@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description: "A curated minimalist showcase of 5 custom-designed cleaning business websites built with Next.js, TailwindCSS, and Framer Motion.",
   keywords: ["design portfolio", "minimalist portfolio", "web development", "nextjs portfolio", "uiux showcase"],
   icons: {
-    icon: "/assets/stadproffsen-logo.jpg", // Use one of the clean logos as default favicon
+    icon: "/assets/opero-favicon.png",
   },
 };
 
