@@ -154,7 +154,7 @@ export default function Home() {
           <span className="font-display font-extrabold text-2xl rotate-90 sm:rotate-0">↘</span>
           <div className="max-w-2xl space-y-4">
             <p className="text-base sm:text-lg md:text-xl text-[#252525]/75 dark:text-[#FCFBF9]/75 font-medium leading-relaxed">
-              A clean showcase of five premium, custom-designed websites created for local cleaning businesses. Engineered for ultimate speed, design clarity, and AEO/SEO discoverability.
+              A showcase of Opero's latest custom designed websites. Engineered for ultimate speed, design clarity, and AEO/SEO discoverability.
             </p>
             <p className="text-xs sm:text-sm text-[#252525]/60 dark:text-[#FCFBF9]/60 max-w-lg mx-auto leading-relaxed border-t border-[#252525]/10 dark:border-white/10 pt-4">
               <strong>What is AEO?</strong> Answer Engine Optimization ensures your content is structured for AI systems (like Gemini, ChatGPT, and Perplexity) to synthesize, recommend, and quote your business directly.
